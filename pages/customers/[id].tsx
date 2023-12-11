@@ -50,7 +50,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async (
             props: {
                 customer: JSON.parse(JSON.stringify(data)),
             },
-            revalidate: 60,
+            revalidate: 61,
         };
     } catch (err) {
         console.log(err);
